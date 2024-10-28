@@ -1,0 +1,71 @@
+.mai{
+    position: relative;
+}
+@media screen and (min-width: 920px) {
+    .vy,.xy {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .vy,.xy {
+        display: none;
+    }
+}
+@media screen and (max-width:400px) {
+    .zzz{
+       margin-left: -12px;
+    }
+    .grt{
+        font-size: 22px;
+    }
+    
+}
+@keyframes keys1 {
+    25%{
+        transform: rotate(90deg);
+        border-radius: 10%;
+        background-color: rgb(119, 119, 119);
+    }
+    50%{
+        transform: rotate(180deg);
+        border-radius: 20%;
+        background-color: rgb(185, 185, 185);
+
+    }
+    75%{
+        transform: rotate(270deg);
+        border-radius: 30%;
+        background-color: rgb(223, 222, 222);
+
+    }
+    90%{
+        transform: rotate(300deg);
+        border-radius: 40%;
+        background-color: rgb(255, 251, 251);
+
+    }
+    100%{
+        transform: rotate(360deg);
+        border-radius: 50%;
+    }
+    
+}
+
+
+.vy{
+    width: 200px; height: 200px;
+    border: 5px solid white;
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    animation: keys1 3s linear infinite reverse ;
+}
+.xy{
+    width: 200px; height: 200px;
+    border: 5px solid white;
+    position: absolute;
+    top: 60px;
+    right: 50px; 
+    animation: keys1 3s linear infinite  reverse;
+}

@@ -1,0 +1,247 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+  
+}
+@media screen and (min-width:730px) and (max-width:1400px) {
+    .yy{
+        height: 600px;
+    }
+    
+}
+@media screen and (max-width:730px) {
+    .yy{
+        height: fit-content;
+    }
+    
+}
+@media screen  and (min-width:400px){
+    .lz{
+        margin-top: 20px;
+    }
+    
+}
+@media screen and (max-width:400px){
+    .lz{
+        position: relative;
+        bottom: 10px;
+    }
+    /* .pz{
+        position: relative;
+        top: 20px;
+        
+    } */
+}
+/* @media screen and (max-width:400px) {
+    #loc{
+        display: block;
+        margin: auto;
+    }
+    
+} */
+.li a{
+    color: white;
+}
+a:hover .bo{
+    border-bottom: 2px solid rgb(234,67,67);
+}
+a:hover span{
+    color: rgb(234,67,67);
+}
+.hu{
+    color: rgb(234,67,67);
+        font-size: 40px;
+        margin-top: 20px;
+        color:  rgb(51,50,50);
+        font-family: "Protest Guerrilla", sans-serif;
+        text-shadow: 5px 5px 10px rgb(234,67,67),-5px -5px 10px rgb(234,67,67);
+}
+.j{
+    border-bottom: 5px solid white;
+}
+
+.m{
+    
+        filter: drop-shadow(3px 3px 5px white) drop-shadow(-3px -3px 5px white);
+       
+     
+}
+
+.hh{
+    position: relative;
+    z-index: 1;
+}
+.pp{
+z-index: -3;
+    position: absolute;
+    top: 50px;
+    width:150px; 
+    height: 300px; 
+    background-color: rgb(234,67,67);
+}
+.pu{
+    width: 50px; height: 70px;
+    background-color: rgb(234,67,67);
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+.pz{
+    width: 300px;
+    height: 300px;
+    border: 5px solid white;
+    position: absolute;
+    top: 150px;
+     z-index: -2;
+     left: 90px;
+     animation: key 3s linear infinite;
+    }
+    @keyframes key {
+        100%{
+            transform: rotate(360deg);
+        }
+        
+    }
+
+@media screen and (min-width:0px) and ( max-width:730px){
+    .gg{
+        width: 100%;
+        text-align: center;
+    }
+    .hh{
+        width: 100%;
+        background-color: rgb(51,50,50);
+    }
+    .yy{
+    width: 100%;
+    background-color: rgb(51,50,50);
+    }
+    .jp{
+        width: 250px;
+        height: 250px;
+        display: block;
+        margin: auto;
+    }  
+}
+
+@media screen and (min-width:900px)  and (max-width:1080px){
+    .pp{ 
+width: 120px;
+height: 250px;
+
+    }
+    .pu{ 
+        width: 40px;
+         height: 40px;
+    }
+    .pz{
+        width: 200px;
+        height: 200px;
+    }
+    
+}
+@media screen and (min-width:730px)  and ( max-width:900px){
+    .pp{ 
+        width: 60px;
+        height: 200px;
+        
+            }
+            .pu{ 
+                width: 40px;
+                 height: 40px;
+            }
+            .pz{
+                width: 170px;
+                height: 170px;
+            }
+}
+@media screen and (min-width:540px)  and ( max-width:730px){
+    .pp{ 
+        width: 60px;
+        height: 200px;
+        left: 80px;
+        
+            }
+            .pu{ 
+                width: 40px;
+                 height: 40px;
+            }
+            .pz{
+                width: 200px;
+                height: 200px;  
+                left: 200px;
+            }
+}
+@media screen and (min-width:0px)  and ( max-width:540px){
+    .pp{ 
+        width: 70px;
+        height: 150px;
+        left: 60px;
+        
+            }
+            .pu{ 
+                width: 40px;
+                 height: 40px;
+            }
+            .pz{
+                 width: 180px;
+                height: 200px;  
+                left: 90px; 
+                border: 5px solid white;
+            }
+            .jp{
+                width: 300px;
+                height: 300px;
+
+            }
+           
+}
+@media screen and (min-width:300px) and (max-width:370px) 
+{
+    p,h1{
+        position: relative;
+        left: -15px;
+    }
+    #op{
+        position: relative;
+        left: -10px;
+    }
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.j:hover a{
+    color: rgb(234,67,67);
+
+}
+.j:hover{
+    border-bottom: 5px solid rgb(234,67,67);
+}
+.fo{
+    font-size: 20px;
+}
+.uu{
+    font-size: 50px;
+   
+}
+.fr{
+    font-size: 30px;
+}
+.jw:hover a{
+    color: white!important;
+}
+.jvd:hover a{
+    color: white!important;
+}
